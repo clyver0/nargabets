@@ -16,6 +16,7 @@ export const betPeriod = ({
   const didWin = () =>
     Math.random() < winProbability;
 
+  
   const getBetValue = (pool) => {
     let level = 0;
     let threshold = initialPool * 3;
